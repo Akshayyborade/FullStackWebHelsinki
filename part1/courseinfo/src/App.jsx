@@ -2,9 +2,9 @@
 import './App.css'
 const Header = (course) => {
   return (
-    <>
+    <div>
       <h1>{course.name}</h1>
-    </>
+    </div>
   )
 }
 const Part = ({ part, exercises }) => <p>{part} {exercises}</p>;
